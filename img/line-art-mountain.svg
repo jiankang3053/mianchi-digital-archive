@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="黄河峡谷线描背景">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3ca7b"/>
+      <stop offset="1" stop-color="#5ab69e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="none"/>
+  <g fill="none" stroke="url(#s)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+    <path d="M42 394c78-94 140-139 184-134 51 6 83 92 142 88 55-4 84-88 142-101 76-17 130 92 205 68 50-16 72-75 138-92"/>
+    <path d="M55 426c77-70 145-97 203-81 62 17 88 89 152 77 63-12 82-98 150-111 73-14 123 77 195 61 39-9 68-38 104-73"/>
+    <path d="M86 456c124-61 210-61 258 0 48 61 116 58 204-9 71-54 157-55 258-4"/>
+    <path d="M225 260c20 38 18 74-6 107M505 249c-17 53-9 100 24 142M718 315c-22 43-21 78 3 106"/>
+  </g>
+  <g fill="#f3ca7b" opacity=".14">
+    <circle cx="164" cy="142" r="66"/>
+    <circle cx="164" cy="142" r="28" fill="#0b1014"/>
+  </g>
+</svg>

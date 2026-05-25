@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="渑池沉浸旅游路线示意图">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102026"/>
+      <stop offset=".52" stop-color="#111414"/>
+      <stop offset="1" stop-color="#332116"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#274e57"/>
+      <stop offset=".45" stop-color="#6d7b58"/>
+      <stop offset="1" stop-color="#c5904e"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="38" fill="url(#bg)"/>
+  <path d="M0 478c132-84 224-88 342-36 126 55 221 40 338-34 135-86 286-74 520 25v287H0Z" fill="#0a0f12" opacity=".78"/>
+  <path d="M36 501c145-108 262-128 403-63 111 51 222 35 355-53 125-82 242-87 370-31" fill="none" stroke="url(#river)" stroke-width="34" stroke-linecap="round" opacity=".72"/>
+  <path d="M101 512c135-88 237-92 350-39 119 56 226 31 346-55 107-77 216-80 323-29" fill="none" stroke="#f0c77a" stroke-width="3" stroke-dasharray="10 16" opacity=".92"/>
+  <g font-family="Microsoft YaHei, sans-serif">
+    <g transform="translate(150 458)" filter="url(#glow)">
+      <circle r="18" fill="#f1c979"/><circle r="8" fill="#102026"/>
+      <text x="-55" y="-34" fill="#f9e7bd" font-size="26" font-weight="700">黄河丹峡</text>
+    </g>
+    <g transform="translate(386 406)" filter="url(#glow)">
+      <circle r="18" fill="#62b7a0"/><circle r="8" fill="#102026"/>
+      <text x="-82" y="-34" fill="#d6fff2" font-size="26" font-weight="700">仰韶村遗址</text>
+    </g>
+    <g transform="translate(632 430)" filter="url(#glow)">
+      <circle r="18" fill="#d8844b"/><circle r="8" fill="#102026"/>
+      <text x="-108" y="-34" fill="#ffe0c3" font-size="26" font-weight="700">仰韶文化博物馆</text>
+    </g>
+    <g transform="translate(873 355)" filter="url(#glow)">
+      <circle r="18" fill="#f1c979"/><circle r="8" fill="#102026"/>
+      <text x="-70" y="-34" fill="#f9e7bd" font-size="26" font-weight="700">会盟台</text>
+    </g>
+    <text x="72" y="104" fill="#f9e7bd" font-size="46" font-weight="800">一条路线，读懂渑池</text>
+    <text x="75" y="152" fill="#b7c7bd" font-size="22">从黄河峡谷到仰韶陶纹，把自然、考古与会盟故事串成一天的旅行节奏。</text>
+  </g>
+  <g opacity=".16" fill="none" stroke="#f1c979">
+    <circle cx="1050" cy="122" r="72"/>
+    <circle cx="1050" cy="122" r="38"/>
+    <path d="M990 122h120M1050 62v120"/>
+  </g>
+</svg>

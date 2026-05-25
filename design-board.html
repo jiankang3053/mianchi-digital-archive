@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数字策展 | 渑池数字志</title>
+  <link rel="stylesheet" href="css/vendor/lenis.css">
+  <link rel="stylesheet" href="css/vendor/locomotive-scroll.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="design">
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="motion-tracker" aria-hidden="true">
+    <span>SCROLL</span>
+    <b data-motion-percent>00%</b>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="返回首页">
+      <img src="img/yangshao-mark.svg" alt="">
+      <span>渑池数字志</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="webs/culture.html">仰韶</a>
+      <a href="webs/travel.html">山水</a>
+      <a href="webs/life.html">烟火</a>
+      <a href="design-board.html" aria-current="page">策展</a>
+    </nav>
+  </header>
+
+  <main data-scroll-container>
+    <section class="hero design-hero" data-scroll-section>
+      <img class="hero-bg-image" src="img/generated-hero.png" alt="" data-scroll data-scroll-speed="-0.12">
+      <div class="hero-noise"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal" data-motion="clip" data-scroll data-scroll-speed="-0.04">
+          <p class="section-code">Digital Curation</p>
+          <h1 data-split>渑池印象<br><span>数字策展</span></h1>
+          <p class="hero-lead">把仰韶陶纹、黄河丹峡、会盟旧事和街巷烟火放进同一座线上展厅，让一座县城的记忆在滚动中层层亮起。</p>
+        </div>
+        <div class="sub-visual reveal delay-1 magnetic" data-motion="rotate" data-scroll data-scroll-speed="0.08" data-label="visual system" data-tilt>
+          <img src="img/generated-hero.png" alt="渑池网站设计视觉">
+        </div>
+      </div>
+    </section>
+
+    <section class="design-board" data-scroll-section>
+      <div class="container design-grid">
+        <article class="design-card wide reveal" data-motion="slide-left" data-scroll data-scroll-speed="-0.04">
+          <p class="section-code">Opening Image</p>
+          <h2 data-split>黑色展厅里，一只彩陶罐照亮黄河峡谷。</h2>
+          <p>第一眼先看见陶纹和山体，随后进入遗址、丹峡、会盟台与街巷生活。渑池的时间感从暗处推到眼前。</p>
+        </article>
+
+        <article class="design-card light reveal" data-motion="zoom" data-scroll data-scroll-speed="0.02">
+          <p class="section-code">County Colors</p>
+          <h2 data-split>陶土红、黄河金、深墨黑、电光青。</h2>
+          <div class="swatches" aria-label="色彩方案">
+            <i style="background:#050607"></i>
+            <i style="background:#f3c96b"></i>
+            <i style="background:#c96f3f"></i>
+            <i style="background:#67ddcf"></i>
+            <i style="background:#f4efe4"></i>
+          </div>
+        </article>
+
+        <article class="design-card reveal" data-motion="slide-right" data-scroll data-scroll-speed="0.05">
+          <p class="section-code">Moving Moments</p>
+          <h2 data-split>每一次下滑，都换一束光和一个镜头。</h2>
+          <ul class="motion-list">
+            <li>开场像展柜亮灯，陶纹从黑色背景里浮出来。</li>
+            <li>丹峡段让山体、文字和卡片形成前后景深。</li>
+            <li>会盟故事用圆环和编号串起时间线。</li>
+            <li>鼠标靠近卡片时，画面轻轻跟随，像人在展厅里移动视线。</li>
+          </ul>
+        </article>
+
+        <article class="design-card light wide reveal" data-motion="slide-left" data-scroll data-scroll-speed="-0.03">
+          <p class="section-code">Story Rhythm</p>
+          <h2 data-split>从遗址到峡谷，从历史到日常，节奏像一段展览动线。</h2>
+          <div class="reference-strip">
+            <span>第一幕<br>仰韶陶纹被点亮</span>
+            <span>第二幕<br>黄河丹峡向前推进</span>
+            <span>第三幕<br>会盟故事留下回声</span>
+            <span>第四幕<br>街巷烟火回到日常</span>
+          </div>
+        </article>
+
+        <article class="design-card reveal" data-motion="zoom" data-scroll data-scroll-speed="0.02">
+          <p class="section-code">Exhibition Rooms</p>
+          <h2 data-split>首页、仰韶、山水、烟火，四个展厅连成一条线。</h2>
+          <p>首页总览渑池的气质，仰韶页讲文明起点，山水页安排路线，烟火页把视线带回人的生活。</p>
+        </article>
+
+        <article class="design-card light reveal" data-motion="slide-right" data-scroll data-scroll-speed="0.05">
+          <p class="section-code">Visitor Path</p>
+          <h2 data-split>看完一条长卷，就能决定从哪里出发。</h2>
+          <p>想看文化，就进仰韶；想看山水，就走丹峡；想带走一份计划，就在烟火页写下自己的行程。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>渑池数字志</strong><p>网媒23级四班 史湘楠 · 豫西小城数字展厅</p></div>
+      <nav class="footer-links" aria-label="页脚导航">
+        <a href="index.html">首页</a>
+        <a href="webs/culture.html">仰韶</a>
+        <a href="webs/travel.html">山水</a>
+        <a href="webs/life.html">烟火</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/vendor/lenis-bridge.js"></script>
+  <script src="js/vendor/locomotive-scroll.umd.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
