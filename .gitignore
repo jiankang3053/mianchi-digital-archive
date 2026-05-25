@@ -7,6 +7,7 @@ build/
 .cache/
 .parcel-cache/
 .vite/
+.vercel/
 
 # Local environment
 .env
